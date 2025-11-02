@@ -1,0 +1,11 @@
+name: Test Workflow
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  hello:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Say hello
+        run: echo "✅ GitHub Actions is active and working!"
