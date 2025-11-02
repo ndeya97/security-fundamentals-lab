@@ -1,0 +1,78 @@
+name: Mark carried-over issues
+
+on:
+  issues:
+    types: [milestoned]
+
+permissions:
+  issues: write
+
+jobs:
+  mark-carried-over:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Ensure label exists
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const labelName = "carried-over";
+            const color = "f0ad4e"; // orange pastel
+            try {
+              await github.rest.issues.getLabel({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                name: labelName
+              });
+            } catch (e) {
+              if (e.status === 404) {
+                await github.rest.issues.createLabel({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  name: labelName,
+                  color,
+                  description: "Issue carried over from a previous milestone"
+                });
+              } else {
+                throw e;
+              }
+            }
+
+      - name: Add label if this is a real carryover
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const issueNumber = context.payload.issue.number;
+
+            // Fetch timeline items to see if the issue has ever been removed from a milestone
+            const query = `
+              query($owner:String!, $repo:String!, $number:Int!) {
+                repository(owner: $owner, name: $repo) {
+                  issue(number: $number) {
+                    timelineItems(itemTypes: [DEMILESTONED_EVENT, MILESTONED_EVENT], last: 50) {
+                      nodes {
+                        __typename
+                        ... on DemilestonedEvent { milestoneTitle createdAt }
+                        ... on MilestonedEvent   { milestoneTitle createdAt }
+                      }
+                    }
+                  }
+                }
+              }
+            `;
+            const vars = {
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              number: issueNumber
+            };
+            const res = await github.graphql(query, vars);
+            const nodes = res.repository.issue.timelineItems.nodes || [];
+
+            const hasDemilestoned = nodes.some(n => n.__typename === "DemilestonedEvent");
+            if (hasDemilestoned) {
+              await github.rest.issues.addLabels({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: issueNumber,
+                labels: ["carried-over"]
+              });
+            }
