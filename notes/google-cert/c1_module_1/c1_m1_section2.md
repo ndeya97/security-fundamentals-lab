@@ -164,3 +164,10 @@ A **Playbook** is a documented, step-by-step guide that analysts follow to inves
 ---
 
 👩🏽‍💻 *Maintained by Ndeye Awa Diop — Cyber Transition Project (Phase 1 Foundations)*
+
+---
+
+<p align="center">
+  ◀️ <a href="c1_m1_section1.md">Previous — Section 1</a> |
+  <a href="c1_m1_section3-review.md">Next — Section 3 & (Review)</a> ▶️
+</p>

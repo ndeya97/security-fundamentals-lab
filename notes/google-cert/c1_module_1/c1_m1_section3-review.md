@@ -165,3 +165,10 @@ Strong security ensures business continuity, ethical conduct, and trust.
 ---
 
 👩🏽‍💻 *Maintained by Ndeye Awa Diop — Cyber Transition Project (Phase 1 Foundations)*  
+
+---
+
+<p align="center">
+  ◀️ <a href="c1_m1_section2.md">Previous — Section 2</a> |
+  <a href="../c1_module_2/c1_m2_section1.md">Next — Module 2 : Section 1</a> ▶️
+</p>

@@ -216,3 +216,10 @@ For technical support → [Learner Help Center](https://learner.coursera.help/hc
 ---
 
 👩🏽‍💻 *Maintained by Ndeye Awa Diop — Cyber Transition Project (Phase 1 Foundations)*
+
+---
+
+<p align="center">
+  ⏩ <a href="c1_m1_section2.md">Next — Section 2</a> ▶️
+</p>
+
