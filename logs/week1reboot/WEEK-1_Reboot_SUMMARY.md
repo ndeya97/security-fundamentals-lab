@@ -92,7 +92,7 @@
 ## 📦 7. Repository & Links
 
 - 💻 Repo → [`security-fundamentals-lab`](https://github.com/ndeya97/security-fundamentals-lab)
-- 🧭 Notion → [Week 1 Reboot Log](https://www.notion.so/Week-1-Reboot)
+- 🧭 Notion → [Week 1 Reboot Log](https://www.notion.so/ndeya/WEEK-1-REBOOT-SUMMARY-Oct-27-Nov-2-2025-2a2c513f71e7807bbe0cfde377be35bb?source=copy_link)
 - 🗓️ Milestone → [Week 1 – Reboot](https://github.com/ndeya97/security-fundamentals-lab/milestone/4)
 - 📅 Next → **Week 2 – Evolution (Nov 3 → Nov 9)**
 
