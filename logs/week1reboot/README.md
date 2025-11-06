@@ -24,12 +24,12 @@
 
 ## 🔗 Related Resources
 - [📎 Notion – Week 1 Reboot Log](https://www.notion.so/ndeya/WEEK-1_Reboot_SUMMARY-md-299c513f71e78057a32acdb893e7dceb?pvs=21)
-- [🗓️ Milestone – Week 1 Reboot](https://github.com/ndeya97/security-fundamentals-lab/milestone/1)
+- [🗓️ Milestone – Week 1 Reboot](https://github.com/ndeya97/security-fundamentals-lab/milestone/4)
 - [📘 Phase 1 Planning](https://www.notion.so/ndeya/Phase-1-Foundations-Oct-Dec-2025-28ec513f71e780acbd1cee5e7eb0908e?pvs=21)
 
 ---
 
-🕓 **Last updated:** 2025-11-03  
+🕓 **Last updated:** 2025-11-05  
 
 ---
 
