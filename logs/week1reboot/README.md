@@ -24,7 +24,7 @@
 ---
 
 ## 🔗 Related Resources
-- [📎 Notion – Week 1 Reboot Log](https://www.notion.so/ndeya/WEEK-1_Reboot_SUMMARY-md-299c513f71e78057a32acdb893e7dceb?pvs=21)
+- [📎 Notion – Week 1 Reboot Log](https://www.notion.so/ndeya/WEEK-1-REBOOT-SUMMARY-Oct-27-Nov-2-2025-2a2c513f71e7807bbe0cfde377be35bb?source=copy_link)
 - [🗓️ Milestone – Week 1 Reboot](https://github.com/ndeya97/security-fundamentals-lab/milestone/4)
 - [📘 Phase 1 Planning](https://www.notion.so/ndeya/Phase-1-Foundations-Oct-Dec-2025-28ec513f71e780acbd1cee5e7eb0908e?pvs=21)
 
