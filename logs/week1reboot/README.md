@@ -14,11 +14,12 @@
 ---
 
 ## 📂 Files
-| Type | File | Description |
+| Category | File / Section | Description |
 |------|------|-------------|
-| 📒 Local Log | `/01-Formations_Notes/notes/week1reboot/Week-1_Reboot.md` | Detailed reflections and daily tracking |
-| 🧾 Public Summary | [`WEEK-1_Reboot_SUMMARY.md`](./WEEK-1_Reboot_SUMMARY.md) | Weekly milestone summary published on GitHub |
-| 💡 Linked Issues | #5 · #6 · #7 · #8 | Task tracking through GitHub issues |
+| 🧭 **Documentation** | [`WEEK-1_Reboot_SUMMARY.md`](./WEEK-1_Reboot_SUMMARY.md) | Weekly milestone summary (public & concise) |
+| 📒 **Learning Log** | `/01-Formations_Notes/notes/week1reboot/Week-1_Reboot.md` | Local detailed notes and daily reflections |
+| 🧩 **Issues Tracker** | [`Issues-Tracker.md`](./Issues-Tracker.md) | Full table tracking active issues, milestones, and notes |
+| 🔗 **Linked Issues** | #5 · #6 · #7 · #8 | Quick access to GitHub issues connected to this week |
 
 ---
 
