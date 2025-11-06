@@ -8,19 +8,40 @@
 
 ---
 
-## 📘 1. Highlights
+## 🎓 1. Highlights
+
+- ✅ **Google Cybersecurity Certificate – Course 1 / Module 1**
+    
+    → Videos completed · Notes structured · Quiz pending FA approval (#5)
+    
+- ✅ **TryHackMe – Intro to Cybersecurity**
+    
+    → Room started · Initial sections explored (#6)
+    
+- 💻 **GitHub Workflow Setup**
+    
+    → Created Milestone, Issues, and Project board for structured tracking
+    
+- 🇬🇧 **English Routine**
+    
+    → Maintained 4 / 5 days · Glossary initialized in `/notes/glossary_EN-FR.md`
+    
+
+---
+
+## 📘 2. Progress Overview
 
 | Area | Progress | Comment |
 | --- | --- | --- |
 | 🎓 **Google Cybersecurity Cert.** | 🟢 Module 1 completed (quiz pending FA) | “Foundations of Cybersecurity” — videos done, quiz waiting financial-aid unlock |
-| 🧠 **TryHackMe Labs** | 🟡 Partially postponed → Week 2 | Planned *Intro to Cybersecurity* room (postponed due to short health break; notes structure ready) |
-| 💻 **GitHub Workflow** | 🟢 Active | Folder `/notes/week1reboot` created · commits linked · README finalizing |
-| 🇬🇧 **English Routine** | 🟢 4 / 5 days done | Daily vocabulary & glossary (Coursera units 1–4) |
-| 🌿 **Revision / Reflection** | 🟢 Sunday planned | Weekly Log consolidation + commit closes #8 |
+| 🧠 **TryHackMe Labs** | 🟡 Postponed → Week 2 | Intro room prepared, pending next week start |
+| 💻 **GitHub Workflow** | 🟢 Active | Folder `/notes/week1reboot` created · commits linked · README finalized |
+| 🇬🇧 **English Routine** | 🟢 4 / 5 days done | Daily vocabulary & glossary updates |
+| 🌿 **Reflection** | 🟢 Completed | Daily entries documented in Notion |
 
 ---
 
-## 📂 2. Deliverables
+## 📂 3. Deliverables
 
 - 🗒️ Coursera Notes → `/notes/learning-notes/coursera/module1.md`
 - 🧩 TryHackMe Notes → *(to start Week 2)*
@@ -32,36 +53,51 @@
 
 ---
 
-## 🧠 3. Insights Learned
+## 🧠 4. Key Takeaways
 
-| Domain | Key Takeaways |
+| Area | Insight |
 | --- | --- |
-| **Google Cert** | Clarified core roles in cybersecurity · CIA Triad · Defense in Depth |
-| **GitHub** | Practiced linking commits to issues (`closes #x`) → clear traceability |
-| **Personal** | Balanced rhythm until Thursday · identified need for recovery windows |
+| Organization | Created project board and milestone system for visibility |
+| Cybersecurity | Understood foundational concepts (CIA Triad, Defense in Depth) |
+| GitHub | Practiced linking commits to issues (`closes #x`) for traceability |
+| Mindset | 🌿 *No perfection — just consistency.* |
 
 ---
 
-## 🇬🇧 4. English Reflection
+## 🇬🇧 5. English Reflection
 
-> This week I learned that steady progress matters more than speed.
-I practiced English through Coursera lessons and glossary writing.
-Even with a short health break, I stayed engaged by reviewing my notes.
-Next week, I will reinforce technical vocabulary and start writing short summaries in English.
+> This week, I practiced active listening through Coursera videos and glossary writing.
+> 
+> 
+> I learned to focus on key ideas rather than word-by-word translation.
+> 
+> Consistency helped me improve comprehension and build confidence.
+> 
+> Next week, I’ll continue expanding my cybersecurity vocabulary.
 > 
 
 ---
 
-## 🔁 5. Next Steps
+## 🔗 6. Linked Issues
 
-- [ ]  Resume quiz once Financial Aid approved (Module 1 – Coursera)
-- [ ]  Begin **TryHackMe – Intro to Cybersecurity** (Week 2)
-- [ ]  Maintain English Routine 15 min/day (L M J V S)
-- [ ]  Plan **Week-2 Evolution** in Notion
-- [ ]  Create new milestone → `Week-2 Evolution`
+| ID | Title | Status |
+| --- | --- | --- |
+| #5 | Coursera Module 1 Quiz (FA) | 🔁 Carried over |
+| #6 | TryHackMe Intro Room | 🔄 Carried over |
+| #7 | Week 1 Documentation | 🟢 Done |
+| #8 | Weekly Summary & Reflection | 🟢 Done |
 
 ---
 
-📅 **Synced with Notion Page:** [Week-1 Reboot Log](https://www.notion.so/Week-1-Reboot)
+## 📦 7. Repository & Links
+
+- 💻 Repo → [`security-fundamentals-lab`](https://github.com/ndeya97/security-fundamentals-lab)
+- 🧭 Notion → [Week 1 Reboot Log](https://www.notion.so/Week-1-Reboot)
+- 🗓️ Milestone → [Week 1 – Reboot](https://github.com/ndeya97/security-fundamentals-lab/milestone/4)
+- 📅 Next → **Week 2 – Evolution (Nov 3 → Nov 9)**
+
+---
+
 🕓 **Last updated:** 2025-11-02
-👩🏽‍💻 *Maintained by Nadio — Cyber Transition Project (2025 – 2026)*
+
+👩🏽‍💻 *Maintained by Ndeye Awa Diop — Cyber Transition Project (2025 → 2026)*
